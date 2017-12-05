@@ -45,4 +45,5 @@ data = [int(input()) for i in range(tCases)]
 res = []
 for n in data:
     res.append(fib(n + 2))
-print(res)
+for i in res:
+    print(i)
